@@ -3,36 +3,14 @@
 #
 
 <p align="center">
-    <strong>A Custom Network-wide ad blocking via your own Linux hardware</strong>
+    <strong>Custom Blocklists for Schools.</strong>
 </p>
 <!-- markdownlint-enable MD033 -->
 
-The Pi-hole® is a [DNS sinkhole](https://en.wikipedia.org/wiki/DNS_Sinkhole) that protects your devices from unwanted content without installing any client-side software.
-
-- **Easy-to-install**: our versatile installer walks you through the process and takes less than ten minutes
-- **Resolute**: content is blocked in _non-browser locations_, such as ad-laden mobile apps and smart TVs
-- **Responsive**: seamlessly speeds up the feel of everyday browsing by caching DNS queries
-- **Lightweight**: runs smoothly with [minimal hardware and software requirements](https://docs.pi-hole.net/main/prerequisites/)
-- **Robust**: a command line interface that is quality assured for interoperability
-- **Insightful**: a beautiful responsive Web Interface dashboard to view and control your Pi-hole
-- **Versatile**: can optionally function as a [DHCP server](https://discourse.pi-hole.net/t/how-do-i-use-pi-holes-built-in-dhcp-server-and-why-would-i-want-to/3026), ensuring *all* your devices are protected automatically
-- **Scalable**: [capable of handling hundreds of millions of queries](https://pi-hole.net/2017/05/24/how-much-traffic-can-pi-hole-handle/) when installed on server-grade hardware
-- **Modern**: blocks ads over both IPv4 and IPv6
-- **Free**: open source software that helps ensure _you_ are the sole person in control of your privacy
-
+- **Works With Most DNS Services**: These Blocklists work with any DNS services that support custom blocklists.
 -----
 
-## One-Step Automated Install
-
-Those who want to get started quickly and conveniently may install Pi-hole using the following command:
-
-### `curl -sSL https://install.pi-hole.net | bash`
-
-## Alternative Install Methods
-
-Piping to `bash` is [controversial](https://pi-hole.net/2016/07/25/curling-and-piping-to-bash), as it prevents you from [reading code that is about to run](https://github.com/pi-hole/pi-hole/blob/master/automated%20install/basic-install.sh) on your system. Therefore, we provide these alternative installation methods which allow code review before installation:
-
-### Method 1: Clone our repository and run
+## One-Step Install
 
 ```bash
 git clone --depth 1 https://github.com/Llewllyn/custom-PiHole.git Pi-hole
