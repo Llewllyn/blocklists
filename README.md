@@ -10,14 +10,6 @@
 - **Works With Most DNS Services**: These Blocklists work with any DNS services that support custom blocklists.
 -----
 
-## One-Step Install
-
-```bash
-git clone --depth 1 https://github.com/Llewllyn/custom-PiHole.git Pi-hole
-cd "custom-PiHole/automated install/"
-sudo bash basic-install.sh
-```
-
 ## [Post-install: Make your network take advantage of Pi-hole](https://docs.pi-hole.net/main/post-install/)
 
 Once the installer has been run, you will need to [configure your router to have **DHCP clients use Pi-hole as their DNS server**](https://discourse.pi-hole.net/t/how-do-i-configure-my-devices-to-use-pi-hole-as-their-dns-server/245) which ensures that all devices connecting to your network will have content blocked without any further intervention.
